@@ -1,0 +1,13 @@
+<div class="row">
+  <div ng-repeat = "job in jobs" class="col-md-4 imgbackground">
+  	<div style="background:white;padding:5px;">
+	    <a href="#/{{$index}}">
+		    <div class="jobImg"><img ng-src="{{ job.img}}"></div>
+		    <div class="jobTitle"><p> {{ job.title }} </p></div>
+	    </a>
+    </div>
+  </div>
+</div>
+
+
+
